@@ -29,8 +29,8 @@ public class ExampleJavaMod extends Mod{
     }
 
     @Override
-    public void loadContent(new MoreBullets().load();){
-        Log.info("Loading some example content.");
+    public void loadContent(new .load();){
+        new MoreBullets().load();
     }
 
 }
