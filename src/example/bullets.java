@@ -7,6 +7,6 @@
             reloadMultiplier = 1.5f;
             ammoMultiplier = 5;
             lifetime = 60f;
-						speed = 6f;
+					  speed = 6f;
         }};
 		}
