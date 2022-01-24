@@ -1,17 +1,17 @@
 #the mod name as displayed in-game
-displayName: "Java Mod Template"
+displayName: "More Bullets Extension"
 
 #the internal name of your mod
-name: "example-java-mod"
+name: "more-bullets-extenison"
 
 #your name
-author: "You"
+author: "GameStuff"
 
 #the fully qualified main class of the mod
 main: "example.ExampleJavaMod"
 
 #the mod description as seen in the mod dialog
-description: "A Mindustry Java mod template."
+description: "Adds more bullets to mindustry mods."
 
 #the mod version
 version: 1.0
