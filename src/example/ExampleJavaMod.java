@@ -29,7 +29,7 @@ public class ExampleJavaMod extends Mod{
     }
 
     @Override
-    public void loadContent(new MoreBullets().load();){
+    public void loadContent(){
         new MoreBullets().load();
     }
 
