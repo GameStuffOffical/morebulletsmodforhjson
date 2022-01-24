@@ -1,7 +1,7 @@
 package example;
 import mindustry.entities.bullet.*;
 import mindsutry.ctype.ContentList;
-public class MoreBullets Implements ContentList {
+public class MoreBullets implements ContentList {
 	// dont use this file placement as an example
 	public BulletType standardHomingFast;
 	@Override
