@@ -2,6 +2,7 @@ package example;
 import mindustry.entities.bullet.*;
 import mindsutry.ctype.ContentList;
 public class MoreBullets Implements ContentList {
+	// dont use this file placement as an example
 	public BulletType standardHomingFast;
 	@Override
 	public void load(){
