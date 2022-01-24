@@ -9,6 +9,8 @@ import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
+import example.*;
+
 public class ExampleJavaMod extends Mod{
 
     public ExampleJavaMod(){
@@ -30,7 +32,7 @@ public class ExampleJavaMod extends Mod{
 
     @Override
     public void loadContent(){
-        Log.info("Loading some example content.");
+        new MoreBullets().load();
     }
 
 }
