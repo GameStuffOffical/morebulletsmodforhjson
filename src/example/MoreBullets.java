@@ -15,7 +15,6 @@ public class MoreBullets implements ContentList {
 			lifetime = 60f;
 			speed = 6f;
 		}};
-	public void load(){
 		standardHomingSlow = new BasicBulletType(6f, 12, "bullet"){{
 			width = 7f;
 			height = 9f;
@@ -25,5 +24,4 @@ public class MoreBullets implements ContentList {
 			lifetime = 60f;
 			speed = 1.5f;
 		}};
-	}
 }
