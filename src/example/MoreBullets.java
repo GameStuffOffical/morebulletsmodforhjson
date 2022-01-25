@@ -24,4 +24,4 @@ public class MoreBullets implements ContentList {
 			lifetime = 60f;
 			speed = 1.5f;
 		}};
-}
+};
