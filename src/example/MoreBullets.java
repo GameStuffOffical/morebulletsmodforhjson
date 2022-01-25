@@ -13,6 +13,17 @@ public class MoreBullets implements ContentList {
 			reloadMultiplier = 1.5f;
 			ammoMultiplier = 5;
 			lifetime = 60f;
+			speed = 6f;
+		}};
+	public void load(){
+		standardHomingSlow = new BasicBulletType(6f, 12, "bullet"){{
+			width = 7f;
+			height = 9f;
+			homingPower = 0.08f;
+			reloadMultiplier = 1.5f;
+			ammoMultiplier = 5;
+			lifetime = 60f;
+			speed = 1.5f;
 		}};
 	}
 }
