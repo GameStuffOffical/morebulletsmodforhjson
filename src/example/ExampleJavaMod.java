@@ -26,11 +26,11 @@ public class ExampleJavaMod extends Mod{
                 dialog.show();
             });
         });
-    }
+    };
 
     @Override
     public void loadContent(){
         new MoreBullets().load();
-    }
+    };
 
-}
+};
