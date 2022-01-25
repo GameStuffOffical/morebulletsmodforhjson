@@ -3,7 +3,7 @@ import mindustry.entities.bullet.*;
 import mindustry.ctype.ContentList;
 public class MoreBullets implements ContentList {
 	// dont use this file placement as an example
-	public BulletType standardHomingFast;
+	public BulletType standardHomingFast, standardHomingSlow;
 	@Override
 	public void load(){
 		standardHomingFast = new BasicBulletType(6f, 12, "bullet"){{
