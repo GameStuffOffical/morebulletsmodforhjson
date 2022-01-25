@@ -4,13 +4,11 @@ This mod creates new bullet types for you to use.
 
 to use them on hjson just do "type:bulletTypeYouWantToUse" inside of any ammo section
 
-|
-
 BULLETS
 
 standardHoming but x2 speed
 
-standardHomingFast
+    standardHomingFast
 
 width: 7
 
@@ -25,12 +23,10 @@ ammoMultipier: 5
 lifeTime: 60
 
 speed = 6
-      
-     | 
-      
+       
 standardHoming but x.5 speed
 
-standardHomingFast
+    standardHomingSlow
 
 width: 7
 
